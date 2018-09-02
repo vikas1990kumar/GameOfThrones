@@ -1,0 +1,55 @@
+<div class="container">
+<div class="card" *ngIf="currentData">
+  <img class="card-img-top" src="assets/img1.jpg" alt="Card image cap" class="img1">
+  <div class="card-body">
+    <h5 class="card-title">Houses</h5>
+    <p class="card-text">URL:{{currentData.url}}</p>
+    <p class="card-text">Name : {{currentData.name}}</p>
+    <p class="card-text">Region :{{currentData.region}}</p>
+    
+      <p class="card-text" >Coat Of Arms :{{currentData.coatOfArms}}</p>
+      <p class="card-text" >Words: {{currentData.words}}</p>
+      <p class="card-text" >overlord : {{currentData.overlord}}</p>
+      <p class="card-text" >Founder : {{currentData.founder}}</p>
+      <p class="card-text" >Diedout :{{currentData.diedOut}}</p>
+    <p class="card-text"><small class="text-muted">All men must die</small></p>
+  </div>
+</div>
+
+<div class="card" *ngIf="currentData1">
+    <img class="card-img-top" src="assets/img3.jpg" alt="Card image cap" class="img1">
+    <div class="card-body">
+      <h5 class="card-title">Characters</h5>
+      <p class="card-text">URL:{{currentData1.url}}</p>
+      <p class="card-text">Name : {{currentData1.name}}</p>
+      <p class="card-text">Region :{{currentData1.culture}}</p>
+      
+        <p class="card-text" >Born :{{currentData1.born}}</p>
+        <p class="card-text" >Died: {{currentData1.died}}</p>
+        <p class="card-text" >Aliases : {{currentData1.aliases}}</p>
+        <p class="card-text" >Spouse : {{currentData1.spouse}}</p>
+        <p class="card-text" >Gender :{{currentData1.gender}}</p>
+        <p class="card-text" >TvSeries :{{currentData1.tvseries}}</p>
+      <p class="card-text"><small class="text-muted">All men must die</small></p>
+    </div>
+  </div>
+
+  <div class="card" *ngIf="currentData2">
+    <img class="card-img-top" src="assets/img2.jpg" alt="Card image cap" class="img1">
+    <div class="card-body">
+      <h5 class="card-title">Books</h5>
+      <p class="card-text">URL:{{currentData2.url}}</p>
+      <p class="card-text">Name : {{currentData2.name}}</p>
+      <p class="card-text">ISBN :{{currentData2.isbn}}</p>
+      
+        <p class="card-text" >Authors :{{currentData2.authors}}</p>
+        <p class="card-text" >No. Of Pages : {{currentData2.numberOfPages}}</p>
+        <p class="card-text" >publisher : {{currentData2.publisher}}</p>
+        <p class="card-text" >country : {{currentData2.country}}</p>
+        <p class="card-text" >Media Type :{{currentData2.mediaType}}</p>
+        <p class="card-text" >Released :{{currentData2.released|date}}</p>
+        
+      <p class="card-text"><small class="text-muted">All men must die</small></p>
+    </div>
+  </div>
+</div>

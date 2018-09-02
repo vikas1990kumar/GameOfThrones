@@ -1,0 +1,16 @@
+.header{
+    /*height: 20vh;*/
+    width: 90vw;
+    background-color: darkslategray;
+    margin-left: -5vw;
+    
+}
+
+.paragraph{
+    font-size: 2em;
+    color: whitesmoke;
+    margin-left: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
